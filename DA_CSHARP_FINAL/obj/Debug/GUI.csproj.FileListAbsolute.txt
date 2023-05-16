@@ -83,3 +83,5 @@ C:\Users\nhon\Desktop\DA_CSHARP_FINAL\DA_CSHARP_FINAL\obj\Debug\DA_CSHARP_FINAL.
 C:\Users\nhon\Desktop\DA_CSHARP_FINAL\DA_CSHARP_FINAL\obj\Debug\DA_CSHARP_FINAL.frm_gioHang.resources
 C:\Users\nhon\Desktop\DA_CSHARP_FINAL\DA_CSHARP_FINAL\obj\Debug\DA_CSHARP_FINAL.frm_nhanVien.resources
 C:\Users\nhon\Desktop\DA_CSHARP_FINAL\DA_CSHARP_FINAL\obj\Debug\DA_CSHARP_FINAL.frm_quanLyTraiCay.resources
+C:\Users\nhon\Desktop\DA_CSHARP_FINAL\DA_CSHARP_FINAL\bin\Debug\DAL.dll
+C:\Users\nhon\Desktop\DA_CSHARP_FINAL\DA_CSHARP_FINAL\bin\Debug\DAL.pdb

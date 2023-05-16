@@ -144,16 +144,6 @@
         SUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuTextBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAVMAAAA1CAYAAAD8kQiHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAADzSURBVHhe7dSxCQMxAARB9V+VHpXhMlyAH4ESh29vOAOX
-        XAE7AIistV5zzo+ZmT3b7udJ6Rj7AOC53c+TUjEF+JWYAgTEFCAgpgABMQUIiClAQEwBAmIKEBBTgICY
-        AgTEFCAgpgABMQUIiClAQEwBAmIKEBBTgICYAgTEFCAgpgABMQUIiClAQEwBAmIKEBBTgICYAgTEFCAg
-        pgABMQUIiClAQEwBAmIKEBBTgICYAgTEFCAgpgABMQUIiClAQEwBAmIKEBBTgICYAgTEFCAgpgABMQUI
-        iClAQEwBAmIKEPiK6XVd732Ymdmz7X6elALwnzFu6k9UwEx7tVoAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="bunifuPanel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAh8AAAFICAYAAADwPpwDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -184,16 +174,6 @@
         kLJ8AAB3xAcAsGb5AABSegMASFk+AIA74gMAWLN8AAApvQEApCwfAMAd8QEArFk+AICU3gAAUpYPAOCO
         +AAA1iwfAEBKbwAAKcsHAHBHfAAAa5YPACClNwCA1Ed8/Dy8H9//brfb7Xa73f91AwAceL2+Absttndg
         SQBzAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="bunifuTextBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAVMAAAA0CAYAAAA3zdsiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAADwSURBVHhe7dSxCQMxAARB9V+VHpXhMlyAH4ESh29vOAOX
-        XAE7AIistV5zzo+ZmT3b7udJ6Rj7AOC53c+TUjEF+JWYAgTEFCAgpgABMQUIiClAQEwBAmIKEBBTgICY
-        AgTEFCAgpgABMQUIiClAQEwBAmIKEBBTgICYAgTEFCAgpgABMQUIiClAQEwBAmIKEBBTgICYAgTEFCAg
-        pgABMQUIiClAQEwBAmIKEBBTgICYAgTEFCAgpgABMQUIiClAQEwBAmIKEBBTgICYAgTEFCAgpgABMQUI
-        iClAQEwBAl8xva7rvQ8zM3u23c+TUgD+M8YNOAIXM3f3Ka0AAAAASUVORK5CYII=
 </value>
   </data>
 </root>

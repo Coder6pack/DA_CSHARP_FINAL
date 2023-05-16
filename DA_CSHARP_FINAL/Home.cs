@@ -122,7 +122,7 @@ namespace DA_CSHARP_FINAL
 
         private void frm_home_Load(object sender, EventArgs e)
         {
-
+            openFormChid(new frm_gioHang());
         }
 
         private void button6_Click_1(object sender, EventArgs e)
