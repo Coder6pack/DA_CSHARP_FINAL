@@ -13,10 +13,10 @@ namespace DTO
         public string taiKhoan { get; set; }
         public string matKhau { get; set; }
         public string quyen { get; set; }
-        public string ngaySinh { get; set; }
+        public DateTime ngaySinh { get; set; }
         public string gioiTinh { get; set; }
         public string sdt { get; set; }
         public string diaChi { get; set; }
-        public string trangThai { get; set; }
+        public int trangThai { get; set; }
     }
 }

@@ -14,5 +14,11 @@ namespace DAL
             string infor = checkLoginDTO(nhanvien);
             return infor;
         }
+
+        public List<NhanVien> dsNhanVien()
+        {
+            List<NhanVien> nhanviens = dsNhanVienDTO();
+            return nhanviens;
+        }
     }
 }

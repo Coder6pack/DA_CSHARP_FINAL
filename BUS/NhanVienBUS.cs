@@ -27,5 +27,9 @@ namespace BUS
             return infor;
         }
         
+        public List<NhanVien> dsNhanVien()
+        {
+            return nhanVienAccess.dsNhanVienDTO();
+        }
     }
 }

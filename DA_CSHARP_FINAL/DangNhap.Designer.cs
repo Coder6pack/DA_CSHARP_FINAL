@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_dangNhap));
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.txt_taiKhoan = new System.Windows.Forms.TextBox();
+            this.txt_matKhau = new System.Windows.Forms.TextBox();
             this.btn_dangNhap = new System.Windows.Forms.Button();
             this.btn_thoat = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_matKhau = new System.Windows.Forms.TextBox();
-            this.txt_taiKhoan = new System.Windows.Forms.TextBox();
             this.bunifuPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,12 +75,28 @@
             this.bunifuPanel2.Size = new System.Drawing.Size(543, 328);
             this.bunifuPanel2.TabIndex = 2;
             // 
+            // txt_taiKhoan
+            // 
+            this.txt_taiKhoan.Location = new System.Drawing.Point(245, 46);
+            this.txt_taiKhoan.Multiline = true;
+            this.txt_taiKhoan.Name = "txt_taiKhoan";
+            this.txt_taiKhoan.Size = new System.Drawing.Size(286, 38);
+            this.txt_taiKhoan.TabIndex = 0;
+            // 
+            // txt_matKhau
+            // 
+            this.txt_matKhau.Location = new System.Drawing.Point(245, 166);
+            this.txt_matKhau.Multiline = true;
+            this.txt_matKhau.Name = "txt_matKhau";
+            this.txt_matKhau.Size = new System.Drawing.Size(286, 38);
+            this.txt_matKhau.TabIndex = 1;
+            // 
             // btn_dangNhap
             // 
             this.btn_dangNhap.Location = new System.Drawing.Point(192, 244);
             this.btn_dangNhap.Name = "btn_dangNhap";
             this.btn_dangNhap.Size = new System.Drawing.Size(159, 60);
-            this.btn_dangNhap.TabIndex = 9;
+            this.btn_dangNhap.TabIndex = 2;
             this.btn_dangNhap.Text = "Đăng nhập";
             this.btn_dangNhap.UseVisualStyleBackColor = true;
             this.btn_dangNhap.Click += new System.EventHandler(this.button1_Click);
@@ -90,7 +106,7 @@
             this.btn_thoat.Location = new System.Drawing.Point(372, 244);
             this.btn_thoat.Name = "btn_thoat";
             this.btn_thoat.Size = new System.Drawing.Size(159, 60);
-            this.btn_thoat.TabIndex = 8;
+            this.btn_thoat.TabIndex = 3;
             this.btn_thoat.Text = "Thoát";
             this.btn_thoat.UseVisualStyleBackColor = true;
             this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click);
@@ -125,24 +141,9 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "CỦA HÀNG TRÁI CÂY NT";
             // 
-            // txt_matKhau
-            // 
-            this.txt_matKhau.Location = new System.Drawing.Point(245, 166);
-            this.txt_matKhau.Multiline = true;
-            this.txt_matKhau.Name = "txt_matKhau";
-            this.txt_matKhau.Size = new System.Drawing.Size(286, 38);
-            this.txt_matKhau.TabIndex = 11;
-            // 
-            // txt_taiKhoan
-            // 
-            this.txt_taiKhoan.Location = new System.Drawing.Point(245, 46);
-            this.txt_taiKhoan.Multiline = true;
-            this.txt_taiKhoan.Name = "txt_taiKhoan";
-            this.txt_taiKhoan.Size = new System.Drawing.Size(286, 38);
-            this.txt_taiKhoan.TabIndex = 12;
-            // 
             // frm_dangNhap
             // 
+            this.AcceptButton = this.btn_dangNhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(997, 551);

@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS;
+using DTO;
 
 namespace DA_CSHARP_FINAL
 {
     public partial class frm_nhanVien : Form
     {
+        public NhanVienBUS nhanvienBUS = new NhanVienBUS();
+        public CT_LuongBUS ctLuongBUS = new CT_LuongBUS();
         public frm_nhanVien()
         {
             InitializeComponent();
@@ -29,7 +33,18 @@ namespace DA_CSHARP_FINAL
 
         private void frm_nhanVien_Load(object sender, EventArgs e)
         {
-            
+            dgv_nhanVien.DataSource = nhanvienBUS.dsNhanVien();
+            dgv_ctLuong.DataSource = ctLuongBUS.loadDSLuong();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+           
         }
     }
 }
